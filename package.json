@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-express-url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "format": "prettier --write \"*.js\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophermilian/nodejs-express-url-shortener.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Christopher Milian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophermilian/nodejs-express-url-shortener/issues"
+  },
+  "homepage": "https://github.com/christophermilian/nodejs-express-url-shortener#readme"
+}
